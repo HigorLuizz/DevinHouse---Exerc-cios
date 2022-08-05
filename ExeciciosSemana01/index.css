@@ -1,0 +1,60 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat ;
+    background-size:cover;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.corpo {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+img{
+    border-radius: 10%;
+    width: 150px;
+}
+.botao{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+.video{
+    width: 420px;
+    height: 420px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: aqua;
+    color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */   
+  
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+  }  

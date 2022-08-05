@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src ="exercicio06.js" defer></script>
+    <link rel="stylesheet" href="exercicio06.css">
+</head>
+<body>
+    <div>
+        <h1>Exercício 06</h1>
+    </div>
+    <div id = "textos">
+        <div>
+            <h3 class = "subtitulo">Lista de compras</h3>
+            <ul>
+                <li>Banana</li>
+                <li>Maça</li>
+                <li>Pêra</li>
+            </ul>
+        </div>
+        <div>
+            <p>Digite abaixo o item que você quer adicionar</p>
+            <input id = "inputItem" type="text">
+            <p>Clique em "Adicionar" para adicionar o item que digitou à lista de compras</p>
+            <button id="btn1" onclick="adicionarElementosLista()"
+             onmouseover="mudarCorDoBotão()"
+             onmouseout="mudarCorQuandoMouseSai()">Adicionar</button>
+        </div>
+    </div>
+</body>
+</html>

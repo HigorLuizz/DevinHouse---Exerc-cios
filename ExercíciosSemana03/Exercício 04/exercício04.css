@@ -1,0 +1,9 @@
+#textos{
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.test{
+    color: brown;
+}

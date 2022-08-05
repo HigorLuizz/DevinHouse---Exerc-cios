@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pegarDados.js" defer></script>
+    <!-- <script src="mostrarUsuario.js" type="module" defer></script> -->
+    <!-- <script src="mostrarUsuario.js" type="module" defer></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+        <div class = "cima">
+            <h1>Cadastro de Usuário</h1>
+        </div>
+        <div class = "baixo">
+            <div class = "esquerda">
+                <h3>Cadastre seu Usuário aqui</h3>
+                <p>Nome</p>
+                <input type="text" class="inputNome">
+                <p>Imagem</p>
+                <input type="text" class = "inputImagem">
+                <p>Descrição</p>
+                <input type="text" class = "inputDescricao">
+                <button class = "btn" onclick="mostrarInformacoes()"
+                onmouseover="mudarCorBotao()"
+                onmouseout="mudarCorQuandoMouseSai()">Criar Usuário</button>
+                <img src="" alt="">
+            </div>
+            <div class ="direita" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>

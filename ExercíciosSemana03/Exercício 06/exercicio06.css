@@ -1,0 +1,14 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.329);
+    gap: 50px;
+}
+#textos{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    background-color: darkslategray;
+}
